@@ -13,6 +13,7 @@ import { Footer } from "~/components/Footer";
 import "./app.css";
 
 export const links: Route.LinksFunction = () => [
+  { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
   { rel: "canonical", href: "https://claudeabq.dev" },
 ];
 
