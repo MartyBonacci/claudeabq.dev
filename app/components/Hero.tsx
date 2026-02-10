@@ -10,10 +10,10 @@ export function Hero() {
         <h1 className="font-serif text-5xl font-bold tracking-tight text-dark md:text-6xl">
           Claude Code ABQ
         </h1>
-        <p className="mt-4 text-xl text-mid-gray md:text-2xl">
+        <p className="mt-4 text-xl text-dark/60 md:text-2xl">
           Albuquerque&apos;s AI-assisted development community
         </p>
-        <p className="mt-6 text-lg text-mid-gray">
+        <p className="mt-6 text-lg text-dark/60">
           Monthly meetups exploring AI-assisted development workflows. Bring
           your laptop, bring your curiosity, bring your honest opinions.
         </p>
@@ -32,7 +32,7 @@ export function Hero() {
           )}
           <a
             href="#about"
-            className="inline-flex items-center gap-1 text-mid-gray transition-colors hover:text-orange focus:outline-none focus:ring-2 focus:ring-orange focus:ring-offset-2 rounded"
+            className="inline-flex items-center gap-1 text-dark/60 transition-colors hover:text-orange focus:outline-none focus:ring-2 focus:ring-orange focus:ring-offset-2 rounded"
           >
             Learn more
             <ArrowDown size={16} />

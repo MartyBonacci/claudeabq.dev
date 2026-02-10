@@ -33,7 +33,7 @@ export function Recordings() {
           </div>
         ) : (
           <div className="mt-12 rounded-xl border border-light-gray bg-offwhite p-12 text-center">
-            <Youtube size={48} className="mx-auto text-mid-gray" />
+            <Youtube size={48} className="mx-auto text-dark/40" />
             <p className="mt-4 text-lg text-dark/60">
               Recordings coming soon after our first meetup!
             </p>

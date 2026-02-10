@@ -24,7 +24,7 @@ export function Resources() {
                 </h3>
                 <ExternalLink
                   size={16}
-                  className="mt-1 shrink-0 text-mid-gray group-hover:text-orange"
+                  className="mt-1 shrink-0 text-dark/40 group-hover:text-orange"
                 />
               </div>
               <p className="mt-2 text-sm text-dark/60">

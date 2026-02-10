@@ -33,7 +33,7 @@ export function Nav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm text-mid-gray transition-colors hover:text-orange focus:text-orange focus:outline-none focus:ring-2 focus:ring-orange focus:ring-offset-2 rounded"
+                className="text-sm text-dark/60 transition-colors hover:text-orange focus:text-orange focus:outline-none focus:ring-2 focus:ring-orange focus:ring-offset-2 rounded"
               >
                 {link.label}
               </a>
@@ -64,7 +64,7 @@ export function Nav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="block py-2 text-mid-gray transition-colors hover:text-orange focus:text-orange focus:outline-none focus:ring-2 focus:ring-orange rounded"
+                className="block py-2 text-dark/60 transition-colors hover:text-orange focus:text-orange focus:outline-none focus:ring-2 focus:ring-orange rounded"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}
