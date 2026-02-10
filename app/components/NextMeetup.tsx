@@ -32,7 +32,7 @@ export function NextMeetup() {
               </div>
             </div>
 
-            <p className="mt-6 text-mid-gray">{meetup.description}</p>
+            <p className="mt-6 text-dark/60">{meetup.description}</p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
@@ -57,7 +57,7 @@ export function NextMeetup() {
           </div>
         ) : (
           <div className="mt-8 rounded-xl border border-light-gray bg-offwhite p-8 text-center">
-            <p className="text-lg text-mid-gray">
+            <p className="text-lg text-dark/60">
               Next meetup TBA — follow us to get notified
             </p>
             <a

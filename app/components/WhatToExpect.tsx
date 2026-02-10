@@ -52,7 +52,7 @@ export function WhatToExpect() {
               <h3 className="mt-4 font-serif text-xl font-bold text-dark">
                 {feature.title}
               </h3>
-              <p className="mt-2 text-mid-gray">{feature.description}</p>
+              <p className="mt-2 text-dark/60">{feature.description}</p>
             </div>
           ))}
         </div>

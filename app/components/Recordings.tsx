@@ -24,7 +24,7 @@ export function Recordings() {
                   <h3 className="font-serif font-bold text-dark group-hover:text-orange">
                     {recording.title}
                   </h3>
-                  <p className="mt-1 text-sm text-mid-gray">
+                  <p className="mt-1 text-sm text-dark/60">
                     {recording.date}
                   </p>
                 </div>
@@ -34,7 +34,7 @@ export function Recordings() {
         ) : (
           <div className="mt-12 rounded-xl border border-light-gray bg-offwhite p-12 text-center">
             <Youtube size={48} className="mx-auto text-mid-gray" />
-            <p className="mt-4 text-lg text-mid-gray">
+            <p className="mt-4 text-lg text-dark/60">
               Recordings coming soon after our first meetup!
             </p>
           </div>

@@ -27,7 +27,7 @@ export function Resources() {
                   className="mt-1 shrink-0 text-mid-gray group-hover:text-orange"
                 />
               </div>
-              <p className="mt-2 text-sm text-mid-gray">
+              <p className="mt-2 text-sm text-dark/60">
                 {resource.description}
               </p>
             </a>
