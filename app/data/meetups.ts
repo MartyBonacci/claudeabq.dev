@@ -29,7 +29,7 @@ export const meetups: readonly Meetup[] = [
     location: "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
     description:
       "Monthly meetup — demos, hands-on exploration, and honest conversation about AI-assisted development. Bring your laptop.",
-    registrationUrl: "https://luma.com/fvxse8v8",
+    registrationUrl: "https://luma.com/eal0lrdd",
     isUpcoming: true,
   },
 ];
