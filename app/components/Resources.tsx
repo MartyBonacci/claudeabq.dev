@@ -3,7 +3,7 @@ import { resources } from "~/data/resources";
 
 export function Resources() {
   return (
-    <section id="resources" className="bg-offwhite px-6 py-20">
+    <section id="resources" className="px-6 py-20">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-center font-serif text-3xl font-bold text-dark md:text-4xl">
           Resources

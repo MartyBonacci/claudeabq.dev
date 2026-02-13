@@ -6,7 +6,8 @@ const navLinks = [
   { label: "About", href: "#about" },
   { label: "What to Expect", href: "#what-to-expect" },
   { label: "Code of Conduct", href: "#code-of-conduct" },
-  { label: "Recordings", href: "#recordings" },
+  { label: "Presentations", href: "#presentations" },
+  { label: "Present", href: "#present" },
   { label: "Resources", href: "#resources" },
 ] as const;
 

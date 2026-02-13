@@ -4,7 +4,8 @@ import { NextMeetup } from "~/components/NextMeetup";
 import { About } from "~/components/About";
 import { WhatToExpect } from "~/components/WhatToExpect";
 import { CodeOfConduct } from "~/components/CodeOfConduct";
-import { Recordings } from "~/components/Recordings";
+import { PastPresentations } from "~/components/PastPresentations";
+import { CallForSpeakers } from "~/components/CallForSpeakers";
 import { Resources } from "~/components/Resources";
 
 export function meta({}: Route.MetaArgs) {
@@ -29,7 +30,8 @@ export default function Home() {
       <About />
       <WhatToExpect />
       <CodeOfConduct />
-      <Recordings />
+      <PastPresentations />
+      <CallForSpeakers />
       <Resources />
     </>
   );
