@@ -1,16 +1,6 @@
-import { Github, Youtube, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const socialLinks = [
-  {
-    label: "GitHub",
-    href: "https://github.com/claudecodeabq",
-    icon: Github,
-  },
-  {
-    label: "YouTube",
-    href: "https://youtube.com/@claudecodeabq",
-    icon: Youtube,
-  },
   {
     label: "Lu.ma",
     href: "https://luma.com/fvxse8v8",
