@@ -29,13 +29,13 @@ export const presentations: readonly Presentation[] = [
     slug: "2026-02-12-claude-code-live",
     meetupNumber: 1,
     date: "February 12, 2026",
-    title: "Claude Code Live — Building a Community Site from Scratch",
+    title: "Claude Code Live — Building a Tweeter App from Scratch",
     presenter: {
-      name: "Marty Byrde",
+      name: "Marty Bonacci",
       title: "Organizer, Claude Code ABQ",
     },
     summary:
-      "Live demo of Claude Code building the claudeabq.dev website in real time. Covered agentic workflows, spec-driven development with SpecSwarm, and how to guide an AI coding agent through a full project — from initial scaffold to deployed site.",
+      "Live demo of Claude Code building tweeter-abq-2 (a Twitter-like app) in real time. Covered agentic workflows, spec-driven development with SpecSwarm, and how to guide an AI coding agent through a full project — from initial scaffold to working app.",
     highlights: [
       "Scaffolded a React Router v7 project from a single prompt",
       "Used SpecSwarm to generate specs, plans, and tasks automatically",
@@ -43,7 +43,7 @@ export const presentations: readonly Presentation[] = [
       "Demonstrated iterative design refinement with live feedback loops",
       "Deployed to production during the demo",
     ],
-    sourceUrl: "https://github.com/martybyrd/claudeabq.dev",
+    sourceUrl: "https://github.com/MartyBonacci/tweeter-abq-2",
     eventUrl: "https://luma.com/fvxse8v8",
     resources: [
       {
@@ -52,11 +52,11 @@ export const presentations: readonly Presentation[] = [
       },
       {
         label: "SpecSwarm",
-        url: "https://specswarm.com",
+        url: "https://github.com/MartyBonacci/specswarm",
       },
       {
-        label: "React Router v7",
-        url: "https://reactrouter.com",
+        label: "Four Minds Pattern",
+        url: "https://github.com/MartyBonacci/four-minds-pattern",
       },
     ],
     tags: ["Claude Code", "SpecSwarm", "React Router", "Live Build"],
