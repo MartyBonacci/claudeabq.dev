@@ -5,11 +5,6 @@ const rules = [
       "Treat everyone with kindness regardless of skill level, background, or experience.",
   },
   {
-    title: "No recruiting spam.",
-    description:
-      "This is a learning community, not a hiring event. Casual networking is great; aggressive recruiting is not.",
-  },
-  {
     title: "Come to learn and share.",
     description: "Ask questions, show your work, help others.",
   },
