@@ -16,6 +16,17 @@ export function NextMeetup() {
             <h3 className="font-serif text-2xl font-bold text-dark">
               {meetup.title}
             </h3>
+            {meetup.presenter && (
+              <p className="mt-2 text-sm text-dark/60">
+                {meetup.presenter.name}
+                {meetup.presenter.title && (
+                  <span className="text-dark/40">
+                    {" "}
+                    &mdash; {meetup.presenter.title}
+                  </span>
+                )}
+              </p>
+            )}
 
             <div className="mt-6 space-y-3">
               <div className="flex items-start gap-3 text-dark">
@@ -33,6 +44,20 @@ export function NextMeetup() {
             </div>
 
             <p className="mt-6 text-dark/60">{meetup.description}</p>
+
+            {meetup.highlights && meetup.highlights.length > 0 && (
+              <ul className="mt-4 space-y-2 pl-1">
+                {meetup.highlights.map((highlight) => (
+                  <li
+                    key={highlight}
+                    className="flex gap-2 text-sm text-dark/70"
+                  >
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-orange/60" />
+                    {highlight}
+                  </li>
+                ))}
+              </ul>
+            )}
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
