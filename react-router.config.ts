@@ -4,6 +4,6 @@ import { vercelPreset } from "@vercel/react-router/vite";
 export default {
   presets: [vercelPreset()],
   async prerender() {
-    return ["/"];
+    return ["/", "/privacy"];
   },
 } satisfies Config;

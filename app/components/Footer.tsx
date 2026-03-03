@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import { Link } from "react-router";
 
 const socialLinks = [
   {
@@ -58,6 +59,12 @@ export function Footer() {
             Claude Code ABQ is a community group. Not affiliated with or
             endorsed by Anthropic.
           </p>
+          <Link
+            to="/privacy"
+            className="mt-2 inline-block text-light/40 hover:text-orange"
+          >
+            Privacy Policy
+          </Link>
           <p className="mt-1">&copy; {year} Claude Code ABQ</p>
         </div>
       </div>
