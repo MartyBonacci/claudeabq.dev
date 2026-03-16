@@ -27,6 +27,29 @@ export interface Presentation {
 
 export const presentations: readonly Presentation[] = [
   {
+    slug: "2026-03-12-most-valuable-developer",
+    meetupNumber: 2,
+    date: "March 12, 2026",
+    title:
+      "The Most Valuable Developer on Your Team — Building AI Workflows That Scale",
+    presenter: {
+      name: "Marty Bonacci",
+      title: "Organizer, Claude Code ABQ",
+    },
+    summary:
+      "Explored how the biggest AI advantage isn't one developer prompting better — it's one developer building systems that make the entire team better. Covered how to design shareable AI workflow tools that give every developer on your team consistent, high-quality results from AI coding agents.",
+    highlights: [
+      "Why the most valuable hire right now is a developer who can systemize AI workflows for a team",
+      "How to design tools that give your whole team access to repeatable, high-quality AI results",
+      "Turning your best practices into shareable, reusable AI workflow systems",
+    ],
+    noRecording: true,
+    sourceUrl: "https://github.com/MartyBonacci/claude-abq-3-12-26",
+    eventUrl: "https://luma.com/eal0lrdd",
+    resources: [],
+    tags: ["AI Workflows", "Team Scaling", "Claude Code", "Developer Tools"],
+  },
+  {
     slug: "2026-02-12-claude-code-live",
     meetupNumber: 1,
     date: "February 12, 2026",
@@ -61,29 +84,6 @@ export const presentations: readonly Presentation[] = [
       },
     ],
     tags: ["Claude Code", "SpecSwarm", "React Router", "Live Build"],
-  },
-  {
-    slug: "2026-03-12-most-valuable-developer",
-    meetupNumber: 2,
-    date: "March 12, 2026",
-    title:
-      "The Most Valuable Developer on Your Team — Building AI Workflows That Scale",
-    presenter: {
-      name: "Marty Bonacci",
-      title: "Organizer, Claude Code ABQ",
-    },
-    summary:
-      "Explored how the biggest AI advantage isn't one developer prompting better — it's one developer building systems that make the entire team better. Covered how to design shareable AI workflow tools that give every developer on your team consistent, high-quality results from AI coding agents.",
-    highlights: [
-      "Why the most valuable hire right now is a developer who can systemize AI workflows for a team",
-      "How to design tools that give your whole team access to repeatable, high-quality AI results",
-      "Turning your best practices into shareable, reusable AI workflow systems",
-    ],
-    noRecording: true,
-    sourceUrl: "https://github.com/MartyBonacci/claude-abq-3-12-26",
-    eventUrl: "https://luma.com/eal0lrdd",
-    resources: [],
-    tags: ["AI Workflows", "Team Scaling", "Claude Code", "Developer Tools"],
   },
 ];
 
