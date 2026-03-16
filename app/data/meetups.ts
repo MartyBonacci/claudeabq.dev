@@ -39,6 +39,18 @@ export const meetups: readonly Meetup[] = [
       "Turning your best practices into shareable, reusable AI workflow systems",
     ],
     registrationUrl: "https://luma.com/eal0lrdd",
+    isUpcoming: false,
+  },
+  {
+    id: "2026-04-09",
+    title: "Claude Code ABQ — April Meetup",
+    date: "Thursday, April 9, 2026",
+    time: "6:00 PM – 8:00 PM MST",
+    location:
+      "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    description:
+      "Topic and presenter TBA. Join us for our monthly meetup exploring AI-assisted development.",
+    registrationUrl: "https://luma.com/opi8awvh",
     isUpcoming: true,
   },
 ];
