@@ -21,6 +21,7 @@ export function PresentationCard({ presentation }: PresentationCardProps) {
     presenter,
     summary,
     highlights,
+    noRecording,
     videoUrl,
     sourceUrl,
     demoUrl,
@@ -87,12 +88,12 @@ export function PresentationCard({ presentation }: PresentationCardProps) {
               <Video size={16} />
               Watch Recording
             </a>
-          ) : (
+          ) : !noRecording ? (
             <span className="inline-flex items-center gap-1.5 rounded-lg border border-light-gray px-4 py-2 text-sm text-dark/40">
               <Clock size={16} />
               Recording coming soon
             </span>
-          )}
+          ) : null}
 
           {sourceUrl && (
             <a

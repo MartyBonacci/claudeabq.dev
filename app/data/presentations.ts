@@ -16,6 +16,7 @@ export interface Presentation {
   readonly presenter: Presenter;
   readonly summary: string;
   readonly highlights: readonly string[];
+  readonly noRecording?: boolean;
   readonly videoUrl?: string;
   readonly sourceUrl?: string;
   readonly demoUrl?: string;
@@ -78,6 +79,7 @@ export const presentations: readonly Presentation[] = [
       "How to design tools that give your whole team access to repeatable, high-quality AI results",
       "Turning your best practices into shareable, reusable AI workflow systems",
     ],
+    noRecording: true,
     sourceUrl: "https://github.com/MartyBonacci/claude-abq-3-12-26",
     eventUrl: "https://luma.com/eal0lrdd",
     resources: [],
