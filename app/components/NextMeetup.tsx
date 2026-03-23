@@ -45,18 +45,63 @@ export function NextMeetup() {
 
             <p className="mt-6 text-dark/60">{meetup.description}</p>
 
-            {meetup.highlights && meetup.highlights.length > 0 && (
-              <ul className="mt-4 space-y-2 pl-1">
-                {meetup.highlights.map((highlight) => (
-                  <li
-                    key={highlight}
-                    className="flex gap-2 text-sm text-dark/70"
+            {meetup.talks && meetup.talks.length > 0 ? (
+              <div className="mt-6 space-y-6">
+                {meetup.talks.map((talk) => (
+                  <div
+                    key={talk.title}
+                    className="rounded-lg border border-light-gray bg-light p-6"
                   >
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-orange/60" />
-                    {highlight}
-                  </li>
+                    <h4 className="font-serif text-lg font-bold text-dark">
+                      {talk.title}
+                    </h4>
+                    <p className="mt-1 text-sm text-dark/60">
+                      {talk.presenter.name}
+                      {talk.presenter.title && (
+                        <span className="text-dark/40">
+                          {" "}
+                          &mdash; {talk.presenter.title}
+                        </span>
+                      )}
+                      {talk.duration && (
+                        <span className="text-dark/40">
+                          {" "}
+                          &middot; {talk.duration}
+                        </span>
+                      )}
+                    </p>
+                    <p className="mt-3 text-dark/60">{talk.description}</p>
+                    {talk.highlights && talk.highlights.length > 0 && (
+                      <ul className="mt-3 space-y-2 pl-1">
+                        {talk.highlights.map((highlight) => (
+                          <li
+                            key={highlight}
+                            className="flex gap-2 text-sm text-dark/70"
+                          >
+                            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-orange/60" />
+                            {highlight}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
                 ))}
-              </ul>
+              </div>
+            ) : (
+              meetup.highlights &&
+              meetup.highlights.length > 0 && (
+                <ul className="mt-4 space-y-2 pl-1">
+                  {meetup.highlights.map((highlight) => (
+                    <li
+                      key={highlight}
+                      className="flex gap-2 text-sm text-dark/70"
+                    >
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-orange/60" />
+                      {highlight}
+                    </li>
+                  ))}
+                </ul>
+              )
             )}
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">

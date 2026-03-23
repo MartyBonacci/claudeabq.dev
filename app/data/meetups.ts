@@ -1,3 +1,11 @@
+export interface MeetupTalk {
+  readonly title: string;
+  readonly presenter: { readonly name: string; readonly title?: string };
+  readonly description: string;
+  readonly duration?: string;
+  readonly highlights?: readonly string[];
+}
+
 export interface Meetup {
   readonly id: string;
   readonly title: string;
@@ -9,6 +17,7 @@ export interface Meetup {
   readonly isUpcoming: boolean;
   readonly presenter?: { readonly name: string; readonly title?: string };
   readonly highlights?: readonly string[];
+  readonly talks?: readonly MeetupTalk[];
 }
 
 export const meetups: readonly Meetup[] = [
@@ -49,9 +58,36 @@ export const meetups: readonly Meetup[] = [
     location:
       "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
     description:
-      "Topic and presenter TBA. Join us for our monthly meetup exploring AI-assisted development.",
+      "Two talks this month — agentic entrepreneurship and an open-source AI agent with 250K+ GitHub stars.",
     registrationUrl: "https://luma.com/opi8awvh",
     isUpcoming: true,
+    talks: [
+      {
+        title: "Unblocking Your Vision: Entrepreneurship in the Agentic Age",
+        presenter: { name: "Tim Farkas" },
+        description:
+          "Agentic AI is changing the math on what one person can build. Tim walks through how founders can validate faster, iterate continuously, and scale lean — with a real-world ed-tech platform as the case study.",
+        duration: "~45 min with Q&A",
+        highlights: [
+          "How agentic AI is lowering the barrier to turning ideas into products",
+          "Validating ideas faster and iterating continuously with smaller teams",
+          "Real-world example: an ed-tech platform built with multiple AI technologies",
+        ],
+      },
+      {
+        title:
+          "OpenClaw: The Open-Source AI Agent That Actually Does Things",
+        presenter: { name: "Michael Noyes-Smith" },
+        description:
+          "250K+ GitHub stars in four months. Michael breaks down what OpenClaw actually is, why it matters, and how he uses this open-source AI agent in his own workflow.",
+        duration: "~30 min with Q&A",
+        highlights: [
+          "What OpenClaw is and how we got here",
+          "Why it matters for developers and non-developers alike",
+          "How Michael actually uses it day-to-day and resources to get started",
+        ],
+      },
+    ],
   },
 ];
 
