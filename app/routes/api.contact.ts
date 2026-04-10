@@ -69,12 +69,13 @@ export async function action({ request }: { request: Request }) {
 
     if (error) {
       console.error("Resend error:", error);
-      return errorResponse("Something went wrong. Please try again.");
+      return errorResponse(`Resend error: ${error.message}`);
     }
 
     return { success: true } satisfies ContactResponse;
   } catch (err) {
     console.error("Contact form error:", err);
-    return errorResponse("Something went wrong. Please try again.");
+    const message = err instanceof Error ? err.message : String(err);
+    return errorResponse(`Unexpected error: ${message}`);
   }
 }
