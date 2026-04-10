@@ -61,7 +61,7 @@ export async function action({ request }: { request: Request }) {
     const resend = new Resend(process.env.RESEND_API_KEY);
     const { error } = await resend.emails.send({
       from: "Claude Code ABQ <onboarding@resend.dev>",
-      to: "marty@customcult.com",
+      to: "martybonacci@gmail.com",
       replyTo: email,
       subject: `[Claude Code ABQ] Contact from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
@@ -69,13 +69,12 @@ export async function action({ request }: { request: Request }) {
 
     if (error) {
       console.error("Resend error:", error);
-      return errorResponse(`Resend error: ${error.message}`);
+      return errorResponse("Something went wrong. Please try again.");
     }
 
     return { success: true } satisfies ContactResponse;
   } catch (err) {
     console.error("Contact form error:", err);
-    const message = err instanceof Error ? err.message : String(err);
-    return errorResponse(`Unexpected error: ${message}`);
+    return errorResponse("Something went wrong. Please try again.");
   }
 }
