@@ -7,6 +7,7 @@ import { CodeOfConduct } from "~/components/CodeOfConduct";
 import { PastPresentations } from "~/components/PastPresentations";
 import { CallForSpeakers } from "~/components/CallForSpeakers";
 import { Resources } from "~/components/Resources";
+import { ContactForm } from "~/components/ContactForm";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -33,6 +34,7 @@ export default function Home() {
       <PastPresentations />
       <CallForSpeakers />
       <Resources />
+      <ContactForm />
     </>
   );
 }

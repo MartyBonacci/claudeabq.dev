@@ -16,3 +16,5 @@
 
 # Playwright MCP logs
 .playwright-mcp/
+.vercel
+.env*.local
