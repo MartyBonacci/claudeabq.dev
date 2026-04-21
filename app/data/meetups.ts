@@ -60,7 +60,7 @@ export const meetups: readonly Meetup[] = [
     description:
       "Two talks this month — agentic entrepreneurship and an open-source AI agent with 250K+ GitHub stars.",
     registrationUrl: "https://luma.com/opi8awvh",
-    isUpcoming: true,
+    isUpcoming: false,
     talks: [
       {
         title: "Unblocking Your Vision: Entrepreneurship in the Agentic Age",
@@ -88,6 +88,26 @@ export const meetups: readonly Meetup[] = [
         ],
       },
     ],
+  },
+  {
+    id: "2026-05-14",
+    title:
+      "Inside My Claude Code Setup — Plugins, Skills, Agents, and Mobile Workflow",
+    date: "Thursday, May 14, 2026",
+    time: "6:00 PM – 8:00 PM MST",
+    location:
+      "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    presenter: { name: "Marty Bonacci", title: "Organizer, Claude Code ABQ" },
+    description:
+      "Marty walks through his full Claude Code configuration — status line, plugins, skills, commands, agents, and remote/mobile workflow. Stick around after for hands-on help getting your own Claude Code configured. Bring your laptop.",
+    highlights: [
+      "Claude Code configuration tour — status line, settings, and the pieces that matter",
+      "Plugins, skills, commands, and agents: what they do and how they fit together",
+      "Remote and mobile workflow — running Claude Code from anywhere",
+      "Hands-on help after the talk — leave with a working config",
+    ],
+    registrationUrl: "https://luma.com/4mwcngo0",
+    isUpcoming: true,
   },
 ];
 

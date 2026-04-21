@@ -27,6 +27,42 @@ export interface Presentation {
 
 export const presentations: readonly Presentation[] = [
   {
+    slug: "2026-04-09-unblocking-your-vision",
+    meetupNumber: 3,
+    date: "April 9, 2026",
+    title: "Unblocking Your Vision: Entrepreneurship in the Agentic Age",
+    presenter: { name: "Tim Farkas" },
+    summary:
+      "Explored how agentic AI is changing the math on what one person can build. Tim walked through how founders can validate faster, iterate continuously, and scale lean — with a real-world ed-tech platform as the case study.",
+    highlights: [
+      "How agentic AI is lowering the barrier to turning ideas into products",
+      "Validating ideas faster and iterating continuously with smaller teams",
+      "Real-world example: an ed-tech platform built with multiple AI technologies",
+    ],
+    noRecording: true,
+    eventUrl: "https://luma.com/opi8awvh",
+    resources: [],
+    tags: ["Agentic AI", "Entrepreneurship", "Ed-Tech", "Founders"],
+  },
+  {
+    slug: "2026-04-09-openclaw",
+    meetupNumber: 3,
+    date: "April 9, 2026",
+    title: "OpenClaw: The Open-Source AI Agent That Actually Does Things",
+    presenter: { name: "Michael Noyes-Smith" },
+    summary:
+      "Michael broke down OpenClaw — the open-source AI agent with 250K+ GitHub stars in four months. Covered what it is, why it matters, and how he uses it in his own workflow.",
+    highlights: [
+      "What OpenClaw is and how we got here",
+      "Why it matters for developers and non-developers alike",
+      "How Michael actually uses it day-to-day and resources to get started",
+    ],
+    noRecording: true,
+    eventUrl: "https://luma.com/opi8awvh",
+    resources: [],
+    tags: ["OpenClaw", "AI Agents", "Open Source"],
+  },
+  {
     slug: "2026-03-12-most-valuable-developer",
     meetupNumber: 2,
     date: "March 12, 2026",
