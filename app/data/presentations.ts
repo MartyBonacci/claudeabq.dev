@@ -27,6 +27,43 @@ export interface Presentation {
 
 export const presentations: readonly Presentation[] = [
   {
+    slug: "2026-05-14-inside-my-claude-code-setup",
+    meetupNumber: 4,
+    date: "May 14, 2026",
+    title:
+      "Inside My Claude Code Setup — Plugins, Skills, Agents, and Mobile Workflow",
+    presenter: {
+      name: "Marty Bonacci",
+      title: "Organizer, Claude Code ABQ",
+    },
+    summary:
+      "Marty walked through his full Claude Code configuration — status line, all 28 active plugins, skills, agents, slash commands, and a multi-device tmux workflow that runs Claude Code across phone, laptop, and desktop over SSH + Tailscale. The session capped off with a live plugin build (power-pages-liquid-js-plugin) created on the spot for an attendee.",
+    highlights: [
+      "Status line setup and the parts of the Claude Code config that actually matter day-to-day",
+      "All 28 active plugins, organized by what they do — with install commands",
+      "Multi-device workflow: tmux + Claude Code over SSH and Tailscale across phone, laptop, and desktop",
+      "Live plugin build during the meetup: power-pages-liquid-js-plugin",
+    ],
+    noRecording: true,
+    sourceUrl: "https://github.com/MartyBonacci/claude-code-abq-5-14-26",
+    eventUrl: "https://luma.com/4mwcngo0",
+    resources: [
+      {
+        label: "tmux-dangerclaude-config",
+        url: "https://github.com/MartyBonacci/tmux-dangerclaude-config",
+      },
+      {
+        label: "tmux-auto-claude-config",
+        url: "https://github.com/MartyBonacci/tmux-auto-claude-config",
+      },
+      {
+        label: "power-pages-liquid-js-plugin",
+        url: "https://github.com/MartyBonacci/power-pages-liquid-js-plugin",
+      },
+    ],
+    tags: ["Claude Code", "Plugins", "Mobile Workflow", "Tmux", "Live Build"],
+  },
+  {
     slug: "2026-04-09-unblocking-your-vision",
     meetupNumber: 3,
     date: "April 9, 2026",

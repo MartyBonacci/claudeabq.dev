@@ -107,6 +107,18 @@ export const meetups: readonly Meetup[] = [
       "Hands-on help after the talk — leave with a working config",
     ],
     registrationUrl: "https://luma.com/4mwcngo0",
+    isUpcoming: false,
+  },
+  {
+    id: "2026-06-11",
+    title: "Claude Code ABQ — June Meetup",
+    date: "Thursday, June 11, 2026",
+    time: "6:00 PM – 8:00 PM MST",
+    location:
+      "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    description:
+      "Topic and presenter TBA. Open to all skill levels — bring your laptop, bring your curiosity.",
+    registrationUrl: "https://luma.com/j5dwo0un",
     isUpcoming: true,
   },
 ];
