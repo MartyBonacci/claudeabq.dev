@@ -111,13 +111,20 @@ export const meetups: readonly Meetup[] = [
   },
   {
     id: "2026-06-11",
-    title: "Claude Code ABQ — June Meetup",
+    title: "Parallel Claude Code: Working with Git Worktrees",
     date: "Thursday, June 11, 2026",
     time: "6:00 PM – 8:00 PM MST",
     location:
       "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    presenter: { name: "Tim Farkas" },
     description:
-      "Topic and presenter TBA. Open to all skill levels — bring your laptop, bring your curiosity.",
+      "Running one Claude Code session at a time? You're leaving speed on the table. Tim shows how he uses git worktrees to run multiple Claude Code sessions in parallel, each on its own branch, without them stepping on each other — build a feature in one worktree while Claude fixes a bug in another. No more waiting, no more context-switching headaches, no more merge chaos. Bring your laptop; you'll leave able to do this yourself.",
+    highlights: [
+      "What git worktrees are and why they pair perfectly with Claude Code",
+      "Running multiple Claude Code sessions in parallel without conflicts",
+      "A real workflow you can set up the same night",
+      "Tips for keeping branches, sessions, and your sanity organized",
+    ],
     registrationUrl: "https://luma.com/j5dwo0un",
     isUpcoming: true,
   },
