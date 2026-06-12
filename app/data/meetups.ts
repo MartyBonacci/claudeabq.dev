@@ -140,6 +140,7 @@ export const meetups: readonly Meetup[] = [
         presenter: { name: "George Kephart" },
         description:
           "George opens up his Claude Code workflow and shows us how he actually works — a live look at the day-to-day habits, setup, and process behind his AI-assisted development.",
+        sourceUrl: "https://github.com/GKephart/grill-me-slides",
       },
     ],
   },
