@@ -4,6 +4,7 @@ export interface MeetupTalk {
   readonly description: string;
   readonly duration?: string;
   readonly highlights?: readonly string[];
+  readonly sourceUrl?: string;
 }
 
 export interface Meetup {
@@ -132,6 +133,7 @@ export const meetups: readonly Meetup[] = [
           "A real workflow you can set up the same night",
           "Tips for keeping branches, sessions, and your sanity organized",
         ],
+        sourceUrl: "https://github.com/farkastime/claude-abq-worktrees",
       },
       {
         title: "Inside My Claude Code Workflow",

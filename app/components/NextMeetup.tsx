@@ -1,4 +1,4 @@
-import { Calendar, Clock, MapPin, ExternalLink } from "lucide-react";
+import { Calendar, Clock, MapPin, ExternalLink, Github } from "lucide-react";
 import { getUpcomingMeetup } from "~/data/meetups";
 
 export function NextMeetup() {
@@ -83,6 +83,17 @@ export function NextMeetup() {
                           </li>
                         ))}
                       </ul>
+                    )}
+                    {talk.sourceUrl && (
+                      <a
+                        href={talk.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-4 inline-flex items-center gap-1.5 rounded-lg border border-light-gray px-4 py-2 text-sm font-medium text-dark/70 transition-colors hover:border-orange hover:text-orange focus:outline-none focus:ring-2 focus:ring-orange focus:ring-offset-2"
+                      >
+                        <Github size={16} />
+                        Source Code
+                      </a>
                     )}
                   </div>
                 ))}
