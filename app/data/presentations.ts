@@ -27,6 +27,41 @@ export interface Presentation {
 
 export const presentations: readonly Presentation[] = [
   {
+    slug: "2026-06-11-parallel-claude-code-worktrees",
+    meetupNumber: 5,
+    date: "June 11, 2026",
+    title: "Parallel Claude Code: Working with Git Worktrees",
+    presenter: { name: "Tim Farkas" },
+    summary:
+      "Tim showed how he uses git worktrees to run multiple Claude Code sessions in parallel, each on its own branch, without them stepping on each other — building a feature in one worktree while Claude fixes a bug in another. A hands-on look at a workflow you can set up the same night.",
+    highlights: [
+      "What git worktrees are and why they pair perfectly with Claude Code",
+      "Running multiple Claude Code sessions in parallel without conflicts",
+      "A real workflow you can set up the same night",
+      "Tips for keeping branches, sessions, and your sanity organized",
+    ],
+    noRecording: true,
+    sourceUrl: "https://github.com/farkastime/claude-abq-worktrees",
+    eventUrl: "https://luma.com/j5dwo0un",
+    resources: [],
+    tags: ["Claude Code", "Git Worktrees", "Parallel Sessions", "Workflow"],
+  },
+  {
+    slug: "2026-06-11-inside-my-claude-code-workflow",
+    meetupNumber: 5,
+    date: "June 11, 2026",
+    title: "Inside My Claude Code Workflow",
+    presenter: { name: "George Kephart" },
+    summary:
+      "George opened up his Claude Code workflow and showed us how he actually works — a live look at the day-to-day habits, setup, and process behind his AI-assisted development.",
+    highlights: [],
+    noRecording: true,
+    sourceUrl: "https://github.com/GKephart/grill-me-slides",
+    eventUrl: "https://luma.com/j5dwo0un",
+    resources: [],
+    tags: ["Claude Code", "Workflow", "Developer Tools"],
+  },
+  {
     slug: "2026-05-14-inside-my-claude-code-setup",
     meetupNumber: 4,
     date: "May 14, 2026",

@@ -120,7 +120,7 @@ export const meetups: readonly Meetup[] = [
     description:
       "Two talks this month — parallel Claude Code sessions with git worktrees, and an inside look at a working Claude Code workflow.",
     registrationUrl: "https://luma.com/j5dwo0un",
-    isUpcoming: true,
+    isUpcoming: false,
     talks: [
       {
         title: "Parallel Claude Code: Working with Git Worktrees",
@@ -143,6 +143,18 @@ export const meetups: readonly Meetup[] = [
         sourceUrl: "https://github.com/GKephart/grill-me-slides",
       },
     ],
+  },
+  {
+    id: "2026-07-09",
+    title: "Claude Code ABQ — July Meetup",
+    date: "Thursday, July 9, 2026",
+    time: "6:00 PM – 8:00 PM MST",
+    location:
+      "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    description:
+      "Topic and presenter TBA. Open to all skill levels — bring your laptop, bring your curiosity.",
+    registrationUrl: "https://luma.com/3a0ndkvt",
+    isUpcoming: true,
   },
 ];
 
