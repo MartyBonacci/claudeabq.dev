@@ -146,13 +146,19 @@ export const meetups: readonly Meetup[] = [
   },
   {
     id: "2026-07-09",
-    title: "Claude Code ABQ — July Meetup",
+    title: "Your First Build with Claude Code — Live",
     date: "Thursday, July 9, 2026",
     time: "6:00 PM – 8:00 PM MST",
     location:
       "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
     description:
-      "Topic and presenter TBA. Open to all skill levels — bring your laptop, bring your curiosity.",
+      "Bring your laptops. Someone will be guided through their first build with Claude Code — maybe you. If you've been watching from the sidelines, this is the month to raise your hand. One volunteer who has never used Claude Code will drive, live, with the room behind them. No script, no guarantees, just a real first session with experienced folks coaching. Everyone else: bring what you're working on, ask questions, help your neighbor, share what's working.",
+    highlights: [
+      "One volunteer who's never used Claude Code drives a real first session, live",
+      "No script, no guarantees — experienced folks coaching from the room",
+      "Never used Claude Code? This is the month to raise your hand",
+      "Everyone else: bring your work, ask questions, help your neighbor",
+    ],
     registrationUrl: "https://luma.com/3a0ndkvt",
     isUpcoming: true,
   },
