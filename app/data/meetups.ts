@@ -152,10 +152,10 @@ export const meetups: readonly Meetup[] = [
     location:
       "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
     description:
-      "Bring your laptops. Someone will be guided through their first build with Claude Code — maybe you. If you've been watching from the sidelines, this is the month to raise your hand. One volunteer who has never used Claude Code will drive, live, with the room behind them. No script, no guarantees, just a real first session with experienced folks coaching. Everyone else: bring what you're working on, ask questions, help your neighbor, share what's working.",
+      "Bring your laptops. Someone will be guided through their first build with Claude Code — maybe you. If you've been watching from the sidelines, this is the month to raise your hand. We'll guide the volunteer through building a project, and they'll leave with a free week of Claude Pro to keep going. Everyone else: bring what you're working on, ask questions, help your neighbor, share what's working.",
     highlights: [
-      "One volunteer who's never used Claude Code drives a real first session, live",
-      "No script, no guarantees — experienced folks coaching from the room",
+      "We'll guide one volunteer through building their first project, live",
+      "The volunteer leaves with a free week of Claude Pro to keep going",
       "Never used Claude Code? This is the month to raise your hand",
       "Everyone else: bring your work, ask questions, help your neighbor",
     ],
