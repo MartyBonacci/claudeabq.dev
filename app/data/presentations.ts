@@ -27,6 +27,25 @@ export interface Presentation {
 
 export const presentations: readonly Presentation[] = [
   {
+    slug: "2026-07-09-your-first-build-live",
+    meetupNumber: 6,
+    date: "July 9, 2026",
+    title: "Your First Build with Claude Code — Live",
+    presenter: { name: "The Claude Code ABQ Community" },
+    summary:
+      "No speaker this month — the room did the coaching. Volunteers who had never used Claude Code drove real first sessions live, with experienced folks guiding from the seats. One left with the start of an inventory system for their job, plus a free week of Claude Pro to keep building. Everyone else brought what they were working on, asked questions, and shared what's working.",
+    highlights: [
+      "First-time Claude Code users drove live sessions with the room coaching",
+      "One volunteer left with the start of a real inventory system for their job",
+      "Volunteers took home a free week of Claude Pro to keep building",
+      "The rest of the room shared projects, questions, and what's working",
+    ],
+    noRecording: true,
+    eventUrl: "https://luma.com/3a0ndkvt",
+    resources: [],
+    tags: ["Claude Code", "First Build", "Live Session", "Community"],
+  },
+  {
     slug: "2026-06-11-parallel-claude-code-worktrees",
     meetupNumber: 5,
     date: "June 11, 2026",
