@@ -160,6 +160,18 @@ export const meetups: readonly Meetup[] = [
       "Everyone else: bring your work, ask questions, help your neighbor",
     ],
     registrationUrl: "https://luma.com/3a0ndkvt",
+    isUpcoming: false,
+  },
+  {
+    id: "2026-08-13",
+    title: "Claude Code ABQ — August Meetup",
+    date: "Thursday, August 13, 2026",
+    time: "6:00 PM – 8:00 PM MST",
+    location:
+      "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    description:
+      "Topic and presenter TBA. Open to all skill levels — bring your laptop and whatever you've been building. Share what's working, get help with what isn't.",
+    registrationUrl: "https://luma.com/wevlihat",
     isUpcoming: true,
   },
 ];
