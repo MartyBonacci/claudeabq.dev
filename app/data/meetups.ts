@@ -164,13 +164,17 @@ export const meetups: readonly Meetup[] = [
   },
   {
     id: "2026-08-13",
-    title: "Claude Code ABQ — August Meetup",
+    title: "Beyond ChatGPT: Engineering Sovereign, On-Prem AI for Public Sector",
     date: "Thursday, August 13, 2026",
     time: "6:00 PM – 8:00 PM MST",
     location:
       "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    presenter: {
+      name: "Jacob Hall",
+      title: "CISSP, Cybersecurity Engineer, Bernalillo County",
+    },
     description:
-      "Topic and presenter TBA. Open to all skill levels — bring your laptop and whatever you've been building. Share what's working, get help with what isn't.",
+      "Jacob manages security efforts at Bernalillo County. He'll take us beyond the chatbot subscription and into AI infrastructure at enterprise scale — what it takes to engineer sovereign, on-prem AI for the public sector.",
     registrationUrl: "https://luma.com/wevlihat",
     isUpcoming: true,
   },
