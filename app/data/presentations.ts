@@ -27,6 +27,27 @@ export interface Presentation {
 
 export const presentations: readonly Presentation[] = [
   {
+    slug: "2026-08-13-beyond-chatgpt-sovereign-on-prem-ai",
+    meetupNumber: 7,
+    date: "August 13, 2026",
+    title: "Beyond ChatGPT: Engineering Sovereign, On-Prem AI for Public Sector",
+    presenter: {
+      name: "Jacob Hall",
+      title: "CISSP, Cybersecurity Engineer, Bernalillo County",
+    },
+    summary:
+      "Jacob manages security efforts at Bernalillo County. He took us beyond the chatbot subscription and into AI infrastructure at enterprise scale — what it takes to engineer sovereign, on-prem AI for the public sector, where data can't leave the building.",
+    highlights: [
+      "Why public-sector AI can't just be a ChatGPT subscription",
+      "What sovereign, on-prem AI infrastructure looks like at enterprise scale",
+      "The security engineering behind keeping government data in-house",
+    ],
+    noRecording: true,
+    eventUrl: "https://luma.com/wevlihat",
+    resources: [],
+    tags: ["On-Prem AI", "Public Sector", "Security", "Infrastructure"],
+  },
+  {
     slug: "2026-07-09-your-first-build-live",
     meetupNumber: 6,
     date: "July 9, 2026",

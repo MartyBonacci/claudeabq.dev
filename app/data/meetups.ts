@@ -176,6 +176,25 @@ export const meetups: readonly Meetup[] = [
     description:
       "Jacob manages security efforts at Bernalillo County. He'll take us beyond the chatbot subscription and into AI infrastructure at enterprise scale — what it takes to engineer sovereign, on-prem AI for the public sector.",
     registrationUrl: "https://luma.com/wevlihat",
+    isUpcoming: false,
+  },
+  {
+    id: "2026-09-10",
+    title: "Five Months of Quiet Building — A Production App Made with Claude Code",
+    date: "Thursday, September 10, 2026",
+    time: "6:00 PM – 8:00 PM MST",
+    location:
+      "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    presenter: { name: "Marty Bonacci", title: "Organizer, Claude Code ABQ" },
+    description:
+      "Marty unveils what he's been quietly building for the last 5 months: a real production web app built almost entirely with Claude Code. He'll show the agentic technique behind it — running separate mentor and builder instances of Claude Code that work together. Been building something yourself? Bring it. We're opening the floor for short demos of what you've made and the agentic techniques you used. Free. All skill levels. Bring your laptop.",
+    highlights: [
+      "A real production web app, built almost entirely with Claude Code over 5 months",
+      "The mentor/builder technique — separate Claude Code instances working together",
+      "Open floor for short demos: bring what you've built and the agentic techniques behind it",
+      "Free, all skill levels, bring your laptop",
+    ],
+    registrationUrl: "https://luma.com/inp6mrc2",
     isUpcoming: true,
   },
 ];
