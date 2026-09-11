@@ -27,6 +27,42 @@ export interface Presentation {
 
 export const presentations: readonly Presentation[] = [
   {
+    slug: "2026-09-10-five-months-of-quiet-building",
+    meetupNumber: 8,
+    date: "September 10, 2026",
+    title: "Five Months of Quiet Building — A Production App Made with Claude Code",
+    presenter: { name: "Marty Bonacci", title: "Organizer, Claude Code ABQ" },
+    summary:
+      "Marty unveiled what he'd been quietly building for five months: a real production web app built almost entirely with Claude Code. He walked through the agentic technique behind it — running separate mentor and builder instances of Claude Code that work together, with the mentor directing and verifying the builder's work.",
+    highlights: [
+      "A real production web app, built almost entirely with Claude Code over 5 months",
+      "The mentor/builder technique — separate Claude Code instances working together",
+      "How the mentor directs, dispatches, and independently verifies the builder's work",
+    ],
+    noRecording: true,
+    eventUrl: "https://luma.com/inp6mrc2",
+    resources: [],
+    tags: ["Claude Code", "Production App", "Mentor/Builder", "Agentic Workflow"],
+  },
+  {
+    slug: "2026-09-10-earbuddies-tone-recognition",
+    meetupNumber: 8,
+    date: "September 10, 2026",
+    title: "Ear Buddies: An App for Learning to Recognize Tones",
+    presenter: { name: "Tim Farkas" },
+    summary:
+      "During the open demo floor, Tim showed off Ear Buddies, an app he built to teach ear training — learning to recognize musical tones by listening. Try it yourself at the demo link below.",
+    highlights: [
+      "A working ear-training app for learning to recognize tones",
+      "Built and shipped as a live demo of what one person can make with AI-assisted development",
+    ],
+    noRecording: true,
+    demoUrl: "https://earbuddies.parnassian.xyz",
+    eventUrl: "https://luma.com/inp6mrc2",
+    resources: [],
+    tags: ["Demo", "Ear Training", "Music", "Web App"],
+  },
+  {
     slug: "2026-08-13-beyond-chatgpt-sovereign-on-prem-ai",
     meetupNumber: 7,
     date: "August 13, 2026",

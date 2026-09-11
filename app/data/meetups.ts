@@ -195,6 +195,18 @@ export const meetups: readonly Meetup[] = [
       "Free, all skill levels, bring your laptop",
     ],
     registrationUrl: "https://luma.com/inp6mrc2",
+    isUpcoming: false,
+  },
+  {
+    id: "2026-10-08",
+    title: "Claude Code ABQ — October Meetup",
+    date: "Thursday, October 8, 2026",
+    time: "6:00 PM – 8:00 PM MST",
+    location:
+      "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
+    description:
+      "Speaker to be announced. Open to all skill levels — bring your laptop and whatever you've been building. Share what's working, get help with what isn't.",
+    registrationUrl: "https://luma.com/fvxse8v8",
     isUpcoming: true,
   },
 ];
