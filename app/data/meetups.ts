@@ -199,15 +199,29 @@ export const meetups: readonly Meetup[] = [
   },
   {
     id: "2026-10-08",
-    title: "Claude Code ABQ — October Meetup",
+    title: "Beyond Web Apps — Games and Music Built with Agentic AI",
     date: "Thursday, October 8, 2026",
     time: "6:00 PM – 8:00 PM MST",
     location:
       "Deep Dive Coding Classrooms, CNM STEMulus Center, Downtown Albuquerque",
     description:
-      "Speaker to be announced. Open to all skill levels — bring your laptop and whatever you've been building. Share what's working, get help with what isn't.",
-    registrationUrl: "https://luma.com/fvxse8v8",
+      "Agentic AI builds more than web apps. Two builders show what they've been creating with agentic AI tools — what they made and how they made it.",
+    registrationUrl: "https://luma.com/90l9om8x",
     isUpcoming: true,
+    talks: [
+      {
+        title: "Building Games with Agentic AI",
+        presenter: { name: "Paul Thompson" },
+        description:
+          "Paul has been building games with agentic AI tools. They'll show what they made and how they made it.",
+      },
+      {
+        title: "Making Music with Agentic AI",
+        presenter: { name: "Methika Nithikatechakorn" },
+        description:
+          "Methika has been making music with agentic AI tools. They'll show what they made and how they made it.",
+      },
+    ],
   },
 ];
 
