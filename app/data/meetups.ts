@@ -210,16 +210,16 @@ export const meetups: readonly Meetup[] = [
     isUpcoming: true,
     talks: [
       {
+        title: "Building MAYNII with Claude Code + Creative AI",
+        presenter: { name: "Methika Nithimatechakorn" },
+        description:
+          "Methika shows the music she's been creating and the process behind it.",
+      },
+      {
         title: "Building Music Radio with Agentic AI",
         presenter: { name: "Paul Thompson" },
         description:
           "Paul has been building a live-coding music website with agentic AI tools. He'll show what he made and how he made it.",
-      },
-      {
-        title: "Building MAYNII with Claude Code + Creative AI",
-        presenter: { name: "Methika Nithikatechakorn" },
-        description:
-          "Methika shows the music she's been creating and the process behind it.",
       },
     ],
   },
